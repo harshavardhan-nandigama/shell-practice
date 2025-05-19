@@ -1,6 +1,6 @@
 #!/bin/bash
 
-person1=trump
+person1=harsh
 person2=musk
 
 echo "$person1: hai ra $person2"
