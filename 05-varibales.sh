@@ -2,7 +2,7 @@
 
 echo "enter your pin number"
 
-read PIN #pin is the varible here
+read -s PIN #pin is the varible here
 
 echo "your numer is: $PIN" 
 
