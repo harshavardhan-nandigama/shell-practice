@@ -4,7 +4,7 @@ echo "All varialbes passed to the script: $@"
 
 echo "Number of variables: $#"
 
-edhco "Current directory: $PWD"
+echo "Current directory: $PWD"
 
 echo "User running this script: $USER"
 echo "Home directory of user: $HOME"
