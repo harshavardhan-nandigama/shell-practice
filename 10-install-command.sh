@@ -10,7 +10,7 @@ else
     echo "you are running with root access"
 fi
 
-dnf install msql -y
+dnf install msnmml -y
 
 if [ $? -eq 0 ]
 then
