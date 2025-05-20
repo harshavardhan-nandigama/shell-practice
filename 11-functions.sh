@@ -10,6 +10,7 @@ else
     echo "you are running with root access"
 fi
 
+# validate function takes input as exit status, what command they tried to install 
 VALIDATE(){
     if [ $? -eq 0]
     then
