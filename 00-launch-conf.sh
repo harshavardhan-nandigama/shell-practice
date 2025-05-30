@@ -27,7 +27,7 @@ launch_instance() {
     --key-name $KEY_NAME \
     --security-group-ids $SECURITY_GROUP_ID \
     --subnet-id $SUBNET_ID \
-    --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=$INSTANCE_NAME}]" \
+    --tag-specifications "ResourceType=instance,Tags=[{Value=$INSTANCE_NAME}]" \
     --query "Instances[0].InstanceId" --output text)
 
   echo "Instance ID: $INSTANCE_ID for $INSTANCE_NAME"
