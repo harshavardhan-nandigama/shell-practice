@@ -1,8 +1,6 @@
 #!/bin/bash
 
-MOVIES=("Court" "hit3" "pushpa" "aarya")
+MOVIES=("Court" "Hit" "Pushpa" "Thandel")
 
-echo "First Movie: ${MOVIES[0]}"
-echo "Second Movie: ${MOVIES[2]}"
+echo "First Movie: ${MOVIES[0]}
 
-echo "All Movies: ${MOVIES[@]}"
